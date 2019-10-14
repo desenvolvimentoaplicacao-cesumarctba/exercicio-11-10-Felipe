@@ -1,0 +1,132 @@
+body {
+	background-color: #ADD8E6; 
+} 
+
+.insert {
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #000000; 
+	border-radius: 10px; 
+	font-family: Verdana; 
+	padding: 10px; 
+}
+
+.formulario {
+	border-style: solid; 
+	border-width: 0px; 
+	text-align: center;
+	margin-top: 35px; 
+}
+
+.titulo {
+	font-family: verdana; 
+	text-align: center;
+}
+
+.alert-success {
+	font-family: Arial; 
+	color: #1E5925; 
+	background-color: #D6EEDA; 
+	border-style: solid;
+	border-width: 1px; 
+	border-radius: 10px; 
+	border-color: #C6E7CB; 
+	max-width: 500px; 
+	padding: 15px; 
+	margin: 10px; 
+}
+
+.alert-danger {
+	font-family: Arial; 
+	color: #6E1825; 
+	background-color: #F5D6DA; 
+	border-style: solid;
+	border-width: 1px; 
+	border-radius: 10px;
+	border-color: #F1C5CB;  
+	max-width: 500px; 
+	padding: 15px; 
+	margin: 10px; 
+}
+
+.alert-info {
+	font-family: Arial; 
+	color: #1A3D84; 
+	background-color: #CFE4FE; 
+	border-style: solid;
+	border-width: 0.5px; 
+	border-radius: 10px; 
+	border-color: #BDD9FE; 
+	max-width: 500px; 
+	padding: 15px; 
+	margin: 10px; 
+}
+
+label {
+	font-family: Verdana; 
+}
+
+table {
+	margin: 25px; 
+	font-family: Verdana; 
+	max-width: 100%; 
+	width: 50%; 
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #FFFFFF; 
+	border-radius: 10px; 
+}
+
+td {
+	font-family: Verdana; 
+	border-style: solid;
+	border-width: 1px; 
+	border-color: #FFFFFF; 
+	padding: 3px; 
+}
+
+
+button.delete {
+	color: #6E1825; 
+	background-color: #F5D6DA; 
+	border-color: #6E1825; 
+	border-style: solid;
+	border-width: 1px; 
+	border-radius: 7px; 
+	width: 25px; 
+	height: 25px; 
+	font-weight: bold; 
+	font-family: verdana; 
+}
+
+th {
+	background-color: #FFFFFF; 
+	font-family: arial; 
+	padding: 5px; 
+}
+
+th.key {
+	border-radius: 10px 0px 0px 0px; 
+}
+
+th.delete {
+	border-radius: 0px 10px 0px 0px; 
+	padding: 0px; 
+}
+
+th.value {
+	text-align: left;
+}
+
+td.key {
+	text-align: center;
+}
+
+td.delete {
+	width: 50px; 
+	text-align: center;
+}
+
+b.deleted {
+	color: #6E1825; 
+}
